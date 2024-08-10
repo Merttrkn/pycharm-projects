@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>40</y>
+      <width>361</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>adana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>urfa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>antep</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>diyarbakır</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mardin</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>batman</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>hatay</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>maraş</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QScrollBar" name="verticalScrollBar">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>40</y>
+      <width>16</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QScrollBar" name="horizontalScrollBar">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>250</y>
+      <width>331</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
